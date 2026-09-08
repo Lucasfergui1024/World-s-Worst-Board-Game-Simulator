@@ -17,9 +17,6 @@ while space < 101 :
 				maxspace = space
 		else :
 			space = 1
-			f = open("wwb.log.txt", "w")
-			f.write("")
-			f = open("wwb.log.txt", "a")
 	f.write("Time: " + str(now) + " ")	
 	f.write("Turn: " + str(turn) + " ")
 	f.write("Space: " + str(space) + " ")
